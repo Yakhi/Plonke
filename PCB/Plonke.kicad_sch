@@ -5189,7 +5189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
 			(at 38.1 41.91 0)
 			(effects
 				(font
@@ -5852,7 +5852,7 @@
 			)
 		)
 		(instances
-			(project "Ricky_Keyboard"
+			(project "Plonke"
 				(path "/8b9b9087-ba2f-4a40-b105-221ef5fe39ca"
 					(page "2")
 				)
