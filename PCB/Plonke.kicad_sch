@@ -2892,6 +2892,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 54.61) (xy 228.6 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3486d7f8-e59a-4179-bc03-421e36cf4b47")
+	)
+	(wire
+		(pts
 			(xy 184.15 64.77) (xy 189.23 64.77)
 		)
 		(stroke
@@ -2899,6 +2909,16 @@
 			(type default)
 		)
 		(uuid "34a448b3-f585-4607-8d16-6783bb049e2a")
+	)
+	(wire
+		(pts
+			(xy 219.71 90.17) (xy 228.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e8b5cc8-9d33-46f1-a1d8-c914cad5977c")
 	)
 	(wire
 		(pts
@@ -2929,6 +2949,16 @@
 			(type default)
 		)
 		(uuid "48cb10aa-4d80-4eb0-96a6-02c36ec442df")
+	)
+	(wire
+		(pts
+			(xy 219.71 92.71) (xy 228.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4baa97f1-e45d-493f-a828-5ee481146bfd")
 	)
 	(wire
 		(pts
@@ -3029,6 +3059,16 @@
 			(type default)
 		)
 		(uuid "b0e895bd-ef0c-450c-8b3f-21853d8f538c")
+	)
+	(wire
+		(pts
+			(xy 219.71 85.09) (xy 228.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b925d1e1-9a29-4e86-b3ea-0aa554d2e18d")
 	)
 	(wire
 		(pts
@@ -3284,6 +3324,28 @@
 			)
 		)
 	)
+	(global_label "R1"
+		(shape input)
+		(at 228.6 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "447743c9-ee53-4096-baa6-8a15df248d4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.0647 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 118.11 82.55 0)
@@ -3526,6 +3588,28 @@
 			)
 		)
 	)
+	(global_label "R2"
+		(shape input)
+		(at 228.6 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edf95689-88ae-4519-8c2b-e6a805ad12c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.0647 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS"
 		(shape input)
 		(at 105.41 69.85 90)
@@ -3566,6 +3650,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R4"
+		(shape input)
+		(at 228.6 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4ea1e0d-ae7b-4cf5-9bf9-68bc5444687c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.0647 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R3"
+		(shape input)
+		(at 228.6 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f528d157-06d4-47f5-bcd5-9b1164c8531e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.0647 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5823,7 +5951,7 @@
 	)
 	(sheet
 		(at 80.01 109.22)
-		(size 12.7 3.81)
+		(size 24.13 16.51)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5843,7 +5971,7 @@
 			)
 		)
 		(property "Sheetfile" "sheetMatrix.kicad_sch"
-			(at 80.01 113.6146 0)
+			(at 80.01 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
